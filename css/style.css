@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Peddana', serif;
+   
+}
+
+#color { background-color: #2C9921;	/*Don't use IDs*/
+}
+
+body{
+ background-color: #2C9921;	
+}
+
+
+.banner {
+	height: 250px;
+	width: 100%; /*Width of page */
+	background-image: url(../images/index/sea3.jpg);
+	background-size:cover;
+	background-position: center;
+	padding:5px;
+
+}
+
+.banner p {
+    color: black;
+    font-size: 50px;
+    font-family: Impact, sans-serif; /*Banner p tag style*/
+    position: absolute;
+    background-color: yellow;
+  
+    
+   
+}  
+.main-nav ul {
+	list-style: none;
+	overflow: auto;
+	background: #ccc;
+
+}
+.main-nav ul li {
+	width: 32%;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+}
+.main-nav ul li a:hover, main-nav li a:active {
+    background-color: #FF0000;
+    font-size: 30px;
+}
+    
+
+.sidebar {
+	width: 30%;
+	height: 630px;
+	background: red;
+	float: right;
+	
+}
+
+.body h2 {
+	width: 70%; /*For one h2 body  */
+	float: left;
+	height: 500px;
+	margin-bottom: 5px;
+	font-size: 25px;
+}
+
+
+
+.footer{
+    display: auto;
+    height: 50px; /*style the footer  */
+	clear: both;
+	text-align: center;
+    } 
+    
+.footer ul{
+	list-style: none:
+	float:right;
+}
+
+.footer ul a{ 
+    left:50px;
+    text-align: center;
+    margin-right:25px;
+    float: center;
+    list-style: none
+    
+}
+
+.img-100{
+	width:70%;
+}
+
+
+.sidebar-bob {
+	width: 30%;
+	height: 665px; /*Width of for notable figure page  */
+	background: red;
+	float: right;
+}
